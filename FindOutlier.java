@@ -1,7 +1,7 @@
 /*
 
 */
-import java.util.*;
+import java.util.Scanner;
 public class FindOutlier{
   public static int findOdd(int[] integers){
     int odd=0, even=0, result = 0;
@@ -26,15 +26,16 @@ public class FindOutlier{
     int n = scan.nextInt();
     int[] integers = new int[n];
     for(int i=0; i<n; i++){
+      System.out.println("Enter numberat index "+i+":");
       integers[i]=scan.nextInt();
     }
     String saver = "[";
     for(int i=0; i<integers.length; i++){
-      if(!(i+1==integers.length-1))
-        saver+=Integer.toString(i)+", ";
+      if(i==integers.length-1)
+        saver+=Integer.toString(integers[i])+"]";
       else 
-        saver+=Integer.toString(i)+"]";
+        saver+=Integer.toString(integers[i])+", ";
     }
-    System.out.println("The odd number from the array "+saver+" is "+findOdd(integers));
+    System.out.println("The odd number from the array "+saver+" is "+findOdd(integers)+".");
   }
 }
