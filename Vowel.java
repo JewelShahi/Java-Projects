@@ -12,8 +12,9 @@ class Vowel{
 	}
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a text: ");
 		String str = scan.nextLine();
-		System.out.println("Vowels: "+getCount(str));
+		System.out.printf("\nVowels in text \"%s\" are %d.\n",str, getCount(str));
 		scan.close();
 	}
 }
