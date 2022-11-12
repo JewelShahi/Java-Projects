@@ -13,7 +13,7 @@ public class GrassHopper {
         System.out.println("Enter a number: ");
         int n = scan.nextInteger();
         n=Math.abs(n);
-        System.out.printf("The sum of numbers from 1 to %d is: %d", n, Summation(n));
+        System.out.printf("\nThe sum of numbers from 1 to %d is: %d\n.", n, Summation(n));
     }
 
 }
