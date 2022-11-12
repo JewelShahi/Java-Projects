@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main {
+class DecToHex {
   public static String toHexVal(int r) {
     switch(r){
       case 10:
