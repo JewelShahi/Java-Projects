@@ -30,8 +30,7 @@ public class EvenNumDontSort {
 		 ****************************************************************************************/
 
 		for (int i = 0; i < index.size(); i++) {
-			a.add(index.get(i), evenNum.get(i)); // adding the even numbers at their correct position (at their correct index
-																						// like from the input array)
+			a.add(index.get(i), evenNum.get(i)); // adding the even numbers at their correct position (at their correct index, like from the input array)
 		}
 
 		for (int i = 0; i < a.size(); i++) {
