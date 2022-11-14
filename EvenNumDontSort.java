@@ -65,10 +65,10 @@ public class EvenNumDontSort {
 
 		/*****************************************************************
 		 * Other quick and easy way to make it - using SortEasy method   *
-		 * for(int i=0; i<SortingEasy(a).length; i++) 			 		*
-		 * a[i]=SortingEasy(a)[i];					 					*
-		 * for(int i : a) 						 						*
-		 * System.out.print(i+" "); 					 				*
+		 * for(int i=0; i<SortingEasy(a).length; i++) 			 		 *
+		 * a[i]=SortingEasy(a)[i];					 					 *
+		 * for(int i : a) 						 						 *
+		 * System.out.print(i+" "); 					 				 *
 		 *****************************************************************/
 
 	}
