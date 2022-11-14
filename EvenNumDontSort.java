@@ -18,7 +18,7 @@ public class EvenNumDontSort {
 
 		java.util.Collections.sort(a); // sorting the arraylist with the odd numbers in it
 		/**************************************** BUBBLE SORT ***********************************
-		 * 	for(int i=0; i<a.szie(); i++){											*
+		 * 	for(int i=0; i<a.szie(); i++){														*
 		 * 		for(int j=1; j<a.size(); j++){						*
 		 * 			if(a.get(j-1)>a.get(j) && a.get(j-1)%2==1 && a.get(j)%2==1){	*
 		 * 				int s=a.get(j-1);					*
