@@ -20,13 +20,13 @@ public class EvenNumDontSort {
 		/**************************************** BUBBLE SORT ***********************************
 		 * 	for(int i=0; i<a.szie(); i++){														*
 		 * 		for(int j=1; j<a.size(); j++){													*
-		 * 			if(a.get(j-1)>a.get(j) && a.get(j-1)%2==1 && a.get(j)%2==1){								*
-		 * 				int s=a.get(j-1);												*
-		 * 				a.set(j-1, a.get(j));												*
-		 * 				a.set(j, s);													*
-		 * 			}															*
-		 * 		}																*
-		 * 	}																	*
+		 * 			if(a.get(j-1)>a.get(j) && a.get(j-1)%2==1 && a.get(j)%2==1){										*
+		 * 				int s=a.get(j-1);																*
+		 * 				a.set(j-1, a.get(j));																	*
+		 * 				a.set(j, s);																				*
+		 * 			}																						*
+		 * 		}																							*
+		 * 	}																								*
 		 ****************************************************************************************/
 
 		for (int i = 0; i < index.size(); i++) {
@@ -42,18 +42,18 @@ public class EvenNumDontSort {
 	}
 
 	/********************************* EASY WAY *****************************
-	 * public static int[] SortingEasy(int a[]){ 								*
-	 * 	for(int i=0; i<a.length; i++){					*
-	 * 		for(int j=1; j<a.length; j++){				*
-	 * 			if(a[j-1]>a[j] && a[j-1]%2==1 && a[j]%2==1){	*
-	 * 				int s=a[j-1];				*
-	 * 				a[j-1]=a[j];				*
-	 * 				a[j]=s;					*
-	 * 			}						*
-	 * 		}							*
-	 * 	}								*
-	 * 	return a;							*
-	 * }									*
+	 * public static int[] SortingEasy(int a[]){ 							*
+	 * 	for(int i=0; i<a.length; i++){									*
+	 * 		for(int j=1; j<a.length; j++){									*
+	 * 			if(a[j-1]>a[j] && a[j-1]%2==1 && a[j]%2==1){						*
+	 * 				int s=a[j-1];									*
+	 * 				a[j-1]=a[j];										*
+	 * 				a[j]=s;											*
+	 * 			}												*
+	 * 		}													*
+	 * 	}															*
+	 * 	return a;														*
+	 * }															*
 	 ************************************************************************/
 
 	public static void main(String[] args) {
