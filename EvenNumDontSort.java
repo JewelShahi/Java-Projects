@@ -43,17 +43,17 @@ public class EvenNumDontSort {
 
 	/********************************* EASY WAY *****************************
 	 * public static int[] SortingEasy(int a[]){ 							*
-	 * 	for(int i=0; i<a.length; i++){									*
+	 * 	for(int i=0; i<a.length; i++){										*
 	 * 		for(int j=1; j<a.length; j++){									*
-	 * 			if(a[j-1]>a[j] && a[j-1]%2==1 && a[j]%2==1){						*
-	 * 				int s=a[j-1];									*
-	 * 				a[j-1]=a[j];										*
-	 * 				a[j]=s;											*
-	 * 			}												*
-	 * 		}													*
-	 * 	}															*
-	 * 	return a;														*
-	 * }															*
+	 * 			if(a[j-1]>a[j] && a[j-1]%2==1 && a[j]%2==1){				*
+	 * 				int s=a[j-1];											*
+	 * 				a[j-1]=a[j];											*
+	 * 				a[j]=s;													*
+	 * 			}															*
+	 * 		}																*
+	 * 	}																	*
+	 * 	return a;															*
+	 * }																	*
 	 ************************************************************************/
 
 	public static void main(String[] args) {
