@@ -16,7 +16,7 @@ class TrailingZerosFactorial{
 		int input;
 		do{
 			input=scan.nextInt();
-		}while(n<=0);
+		}while(input<=0);
       	System.out.println(Zeros(input));
 	}
 }
