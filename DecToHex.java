@@ -29,18 +29,22 @@ class DecToHex {
   public static String Hexadecimal(int n) {
     String str="";
     int d=0, r=0;
-    while (n!=0) {
+    do{
       if (n>=16) {
         d=n/16;
         r=n-d*16;
         n=d;
         str+=toHexVal(r);
-      }else {
-        r=n;
-        n=0;
-        str+=toHexVal(r);
+      }else if(n<16){
+        if(n!=0){
+          r=n;
+          n=0;
+          str+=toHexVal(r);
+        }else{
+          str+="0";
+        }
       }
-    }
+    }while(n!=0);
     str=backWords(str);
     return str;
   }
