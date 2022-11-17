@@ -1,6 +1,7 @@
 /*
 Write a program that will calculate the number of trailing zeros in a factorial of a given number.
 N! = 1 * 2 * 3 *  ... * N
+6! ---> 720 returns 1 because the trailing zero is 1
 1000! has 2568 digits
 */
 import java.util.Scanner;
@@ -15,8 +16,9 @@ class TrailingZerosFactorial{
 		Scanner scan = new Scanner(System.in);
 		int input;
 		do{
+     			System.out.println("Enter a number:");
 			input=scan.nextInt();
 		}while(input<=0);
-      	System.out.println(Zeros(input));
+      		System.out.println("\nResult:\n"+Zeros(input));
 	}
 }
