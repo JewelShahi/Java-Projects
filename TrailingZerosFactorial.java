@@ -16,9 +16,9 @@ class TrailingZerosFactorial{
 		Scanner scan = new Scanner(System.in);
 		int input;
 		do{
-     			System.out.println("Enter a number:");
+     		System.out.println("Enter a number:");
 			input=scan.nextInt();
 		}while(input<=0);
-      		System.out.println("\nResult:\n"+Zeros(input));
+      	System.out.println("\nResult:\n"+Zeros(input));
 	}
 }
