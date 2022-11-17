@@ -1,6 +1,10 @@
+/*
+Find the entered  number in a vector where the sum of the valus in the number is the entered number
+*/
+
 class FindSumArr{
 	public static int[] Add(int n[], int tar){
-		int saverArr[]=new int[2];// making an array to save the indexes
+		int saverArr[] = new int[2];// making an array to save the indexes
 
 		// finding from the vector numbers that are equal to entered number from the user
 		for(int i=0; i<n.length; i++){
@@ -11,12 +15,12 @@ class FindSumArr{
             			break;
           			}
         		}
-      	}
+      		}
 		return saverArr;
 	}
 
 	public static void main(String[] args){
     		int a[]={4, 5, 1, 8, 2, 7};
-      	System.out.println(Add(a, 5)[0]+" "+Add(a, 5)[1]);
+      		System.out.println(Add(a, 5)[0]+" "+Add(a, 5)[1]);
 	}
 }
